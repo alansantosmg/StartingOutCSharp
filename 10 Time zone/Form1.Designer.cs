@@ -51,7 +51,7 @@ namespace _10_Time_zone
       this.CityListBox.Name = "CityListBox";
       this.CityListBox.Size = new System.Drawing.Size(178, 89);
       this.CityListBox.TabIndex = 0;
-     
+      this.CityListBox.SelectedIndexChanged += new System.EventHandler(this.CityListBox_SelectedIndexChanged);
       // 
       // OkButton
       // 
@@ -59,7 +59,7 @@ namespace _10_Time_zone
       this.OkButton.Name = "OkButton";
       this.OkButton.Size = new System.Drawing.Size(76, 40);
       this.OkButton.TabIndex = 1;
-      this.OkButton.Text = "&Ok";
+      this.OkButton.Text = "&Clear";
       this.OkButton.UseVisualStyleBackColor = true;
       this.OkButton.Click += new System.EventHandler(this.OkButton_Click);
       // 

@@ -17,21 +17,29 @@ namespace _10_Time_zone
       InitializeComponent();
     }
 
+    // Method to close app
     private void ExitButton_Click(object sender, EventArgs e)
     {
       this.Close();
     }
 
    
-
+    // Method to clear the selection
     private void OkButton_Click(object sender, EventArgs e)
     {
+      CityListBox.SelectedIndex = -1;
+      TzoneResultLabel.Text = ""; 
+    }
 
+    // Select city and shows the timezone
+    private void CityListBox_SelectedIndexChanged(object sender, EventArgs e)
+    {
 
+      // Only do a selection if exists a selected item
       if (CityListBox.SelectedIndex != -1)
-      
       {
         
+        // show timezone for a clicked list box option
         switch (CityListBox.SelectedItem.ToString())
         {
           case "Honolulu":
@@ -49,20 +57,8 @@ namespace _10_Time_zone
           case "New York":
             TzoneResultLabel.Text = "Eastern";
             break;
-
-        }
-
-
-      }
-      else
-      {
-        MessageBox.Show("Select a city in the box.");
-      }
-
-
-
+        }      
+      } 
     }
-
-  
   }
 }
