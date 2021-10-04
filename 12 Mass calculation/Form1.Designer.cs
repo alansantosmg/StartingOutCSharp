@@ -73,6 +73,7 @@ namespace _12_Mass_calculation
       this.ExitButton.TabIndex = 3;
       this.ExitButton.Text = "&Exit";
       this.ExitButton.UseVisualStyleBackColor = true;
+      this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
       // 
       // MassPromptLabel
       // 

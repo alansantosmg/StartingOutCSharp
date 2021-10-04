@@ -19,7 +19,14 @@ namespace _12_Mass_calculation
 
     private void button2_Click(object sender, EventArgs e)
     {
+      MassPromptTextBox.Text = "";
+      ResultLabel.Text = "";
+      MassPromptTextBox.Focus();
+    }
 
+    private void ExitButton_Click(object sender, EventArgs e)
+    {
+      this.Close();
     }
   }
 }
