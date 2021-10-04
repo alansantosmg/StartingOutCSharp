@@ -28,5 +28,21 @@ namespace _12_Mass_calculation
     {
       this.Close();
     }
+
+    private void CalcButton_Click(object sender, EventArgs e)
+    {
+      if(double.TryParse(MassPromptTextBox.Text, out double mass))
+      {
+
+        const double MASS_CONSTANT = 9.8;
+        double ResultLabel = mass * MASS_CONSTANT;
+
+
+      }
+      else 
+      {
+        MessageBox.Show("Enter a valid mass number");
+      }
+    }
   }
 }

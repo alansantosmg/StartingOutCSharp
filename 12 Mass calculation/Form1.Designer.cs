@@ -54,6 +54,7 @@ namespace _12_Mass_calculation
       this.CalcButton.TabIndex = 1;
       this.CalcButton.Text = "&Calculate";
       this.CalcButton.UseVisualStyleBackColor = true;
+      this.CalcButton.Click += new System.EventHandler(this.CalcButton_Click);
       // 
       // ClearButton
       // 
