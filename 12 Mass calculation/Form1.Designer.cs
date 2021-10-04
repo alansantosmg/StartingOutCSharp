@@ -45,6 +45,7 @@ namespace _12_Mass_calculation
       this.MassPromptTextBox.Name = "MassPromptTextBox";
       this.MassPromptTextBox.Size = new System.Drawing.Size(100, 25);
       this.MassPromptTextBox.TabIndex = 0;
+      this.MassPromptTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
       // 
       // CalcButton
       // 
@@ -110,6 +111,7 @@ namespace _12_Mass_calculation
       this.ResultLabel.Name = "ResultLabel";
       this.ResultLabel.Size = new System.Drawing.Size(100, 23);
       this.ResultLabel.TabIndex = 7;
+      this.ResultLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
       // 
       // Form1
       // 

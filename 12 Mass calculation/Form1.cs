@@ -17,6 +17,8 @@ namespace _12_Mass_calculation
       InitializeComponent();
     }
 
+
+    // clear form
     private void button2_Click(object sender, EventArgs e)
     {
       MassPromptTextBox.Text = "";
@@ -24,6 +26,7 @@ namespace _12_Mass_calculation
       MassPromptTextBox.Focus();
     }
 
+    // close app
     private void ExitButton_Click(object sender, EventArgs e)
     {
       this.Close();
@@ -31,30 +34,34 @@ namespace _12_Mass_calculation
 
     private void CalcButton_Click(object sender, EventArgs e)
     {
+      // get masss
       if(double.TryParse(MassPromptTextBox.Text, out double mass))
       {
 
+        //calculate weight
         const double MASS_CONSTANT = 9.8;
         double result = mass * MASS_CONSTANT;
 
-        ResultLabel.Text = result.ToString();
+        // show result
+        ResultLabel.Text = result.ToString("N2");
 
-
-
+        // if object < 10 si or > 1000 si show message 
         switch (result)
         {
           case > 1000:
+            ResultLabel.ForeColor = Color.Navy;
             MessageBox.Show("Object is too heavy.");
+            
             break;
           case < 10:
+            ResultLabel.ForeColor = Color.Red;
             MessageBox.Show("Object is too low");
             break;
-        }
-
-
+        }     
       }
       else 
       {
+        // catch exception
         MessageBox.Show("Enter a valid mass number");
       }
     }
