@@ -35,7 +35,21 @@ namespace _12_Mass_calculation
       {
 
         const double MASS_CONSTANT = 9.8;
-        double ResultLabel = mass * MASS_CONSTANT;
+        double result = mass * MASS_CONSTANT;
+
+        ResultLabel.Text = result.ToString();
+
+
+
+        switch (result)
+        {
+          case > 1000:
+            MessageBox.Show("Object is too heavy.");
+            break;
+          case < 10:
+            MessageBox.Show("Object is too low");
+            break;
+        }
 
 
       }
