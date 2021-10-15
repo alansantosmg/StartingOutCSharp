@@ -17,5 +17,32 @@ namespace _13_Change_form_colors
       InitializeComponent();
     }
 
+    private void button3_Click(object sender, EventArgs e)
+    {
+      this.Close();
+    }
+
+    private void button1_Click(object sender, EventArgs e)
+    {
+
+      Form1.DefaultBackColor. = Color.Red;
+
+      switch (switch_on)
+      {
+        default:
+      }
+
+    }
+
+    private void ResetButton_Click(object sender, EventArgs e)
+    {
+      PrimaryColorRedRadioButton.Checked = false;
+      PrimaryColorGreenRadioButton.Checked = false;
+      PrimaryColorBlueRadioButton.Checked = false;
+      SecondaryColorRedRadioButton.Checked = false;
+      SecondaryColorGreenRadioButton.Checked = false;
+      SecondaryColorBlueRadioButton.Checked = false;
+      PrimaryColorRedRadioButton.Focus();
+    }
   }
 }
