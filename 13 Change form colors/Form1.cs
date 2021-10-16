@@ -33,6 +33,40 @@ namespace _13_Change_form_colors
                 this.BackColor = Color.Blue;
 
 
+            }else if(PrimaryColorYellowRadioButton.Checked && SecondaryColorYellowRadioButton.Checked)
+            {
+                this.BackColor = Color.Yellow;
+
+            }else if(PrimaryColorRedRadioButton.Checked && SecondaryColorRedRadioButton.Checked)
+            {
+                this.BackColor = Color.Red;
+
+            }else if(PrimaryColorBlueRadioButton.Checked && SecondaryColorRedRadioButton.Checked)
+            {
+                this.BackColor = Color.Purple;
+
+            }else if(PrimaryColorRedRadioButton.Checked && SecondaryColorBlueRadioButton.Checked)
+            {
+                this.BackColor = Color.Purple;
+
+            }else if(PrimaryColorRedRadioButton.Checked && SecondaryColorYellowRadioButton.Checked)
+            {
+                this.BackColor= Color.Orange;
+
+            }else if(PrimaryColorYellowRadioButton.Checked && SecondaryColorRedRadioButton.Checked)
+            {
+                this.BackColor = Color.Orange;
+
+            }else if(PrimaryColorBlueRadioButton.Checked && SecondaryColorYellowRadioButton.Checked)
+            {
+                this.BackColor = Color.Green;
+
+            }else if(PrimaryColorYellowRadioButton.Checked && SecondaryColorBlueRadioButton.Checked)
+            {
+                this.BackColor = Color.Green;
+            }else
+            {
+                this.BackColor = DefaultBackColor;
             }
 
 
