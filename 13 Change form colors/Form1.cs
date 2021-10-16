@@ -17,21 +17,21 @@ namespace _13_Change_form_colors
       InitializeComponent();
     }
 
+    // This method closes the form
     private void button3_Click(object sender, EventArgs e)
     {
       this.Close();
     }
 
+    // This method changes the color of the form
     private void button1_Click(object sender, EventArgs e)
     {
 
             
-
-      if (PrimaryColorBlueRadioButton.Checked && SecondaryColorBlueRadioButton.Checked) 
+            // Change form color
+            if (PrimaryColorBlueRadioButton.Checked && SecondaryColorBlueRadioButton.Checked) 
             {
-
                 this.BackColor = Color.Blue;
-
 
             }else if(PrimaryColorYellowRadioButton.Checked && SecondaryColorYellowRadioButton.Checked)
             {
@@ -68,30 +68,23 @@ namespace _13_Change_form_colors
             {
                 this.BackColor = DefaultBackColor;
             }
-
-
-      /*
-            caso verde verde  = verde 
-            caso  red blue = purple
-            caso  red yellow = orange
-            caso  red red = red 
-            caso  blue blue = blue
-            caso  blue yellow = green
-            false
-
-      */
-
-
     }
 
     private void ResetButton_Click(object sender, EventArgs e)
     {
+
+      // reset form checkboxes state
       PrimaryColorRedRadioButton.Checked = false;
       PrimaryColorYellowRadioButton.Checked = false;
       PrimaryColorBlueRadioButton.Checked = false;
       SecondaryColorRedRadioButton.Checked = false;
       SecondaryColorYellowRadioButton.Checked = false;
       SecondaryColorBlueRadioButton.Checked = false;
+
+      // reset form color
+      this.BackColor = DefaultBackColor;
+
+      // reset checkbox focus
       PrimaryColorRedRadioButton.Focus();
     }
   }

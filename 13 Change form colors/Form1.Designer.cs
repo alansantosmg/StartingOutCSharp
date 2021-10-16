@@ -175,7 +175,7 @@ namespace _13_Change_form_colors
             this.Controls.Add(this.SecondaryColorGroupBox);
             this.Controls.Add(this.PrimaryColorGroupBox);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Secondary Color App";
             this.PrimaryColorGroupBox.ResumeLayout(false);
             this.PrimaryColorGroupBox.PerformLayout();
             this.SecondaryColorGroupBox.ResumeLayout(false);
