@@ -22,28 +22,19 @@ namespace _14_Distance_Converter
         {
           this.Close();
         }
-
       
-
-
     private void ConvertButton_Click(object sender, EventArgs e)
     {
-
 
       // catch exception if there's no unit selected
       try
       {
         if (double.TryParse(PromptDistanceTextBox.Text, out double distance))
         {
-
-
-
-
           // select item to convert
           switch (FromListBox.SelectedItem.ToString())
 
           {
-
             // convert inches
             case "Polegadas":
               switch (ToListBox.SelectedItem.ToString())
@@ -91,17 +82,10 @@ namespace _14_Distance_Converter
                   break;
               }
               break;
-
-
-
-
-
-
           }
 
           // Show result
           ResultLabel.Text = distance.ToString();
-
         }
         else
         {
@@ -113,14 +97,7 @@ namespace _14_Distance_Converter
       {
         MessageBox.Show("Selecione as unidades para conversão.");
         
-      }
-
-
-
-
-
-
-      
+      }     
 
     }
     // clear the form
