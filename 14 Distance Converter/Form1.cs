@@ -17,9 +17,10 @@ namespace _14_Distance_Converter
             InitializeComponent();
         }
 
+        // close app
         private void button3_Click(object sender, EventArgs e)
         {
-
+          this.Close();
         }
 
       
@@ -122,7 +123,7 @@ namespace _14_Distance_Converter
       
 
     }
-
+    // clear the form
     private void ClearButton_Click(object sender, EventArgs e)
     {
       ToListBox.SelectedItem = null;
