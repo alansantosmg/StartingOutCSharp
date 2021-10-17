@@ -90,7 +90,7 @@ namespace _14_Distance_Converter
         else
         {
           // catch exceptions
-          MessageBox.Show("Please, enter a valid number");
+          MessageBox.Show("Digite um número válido.");
         }
       }
       catch
