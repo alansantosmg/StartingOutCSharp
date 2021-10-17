@@ -119,7 +119,6 @@
       this.ResultLabel.Name = "ResultLabel";
       this.ResultLabel.Size = new System.Drawing.Size(74, 20);
       this.ResultLabel.TabIndex = 5;
-      this.ResultLabel.Text = "label3";
       // 
       // ConvertButton
       // 
