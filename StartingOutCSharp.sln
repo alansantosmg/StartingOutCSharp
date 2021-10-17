@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13 Change form colors", "13
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14 Distance Converter", "14 Distance Converter\14 Distance Converter.csproj", "{4F96123C-BA41-445D-857F-11F3516A2A5E}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "14 Setup Distance Converter", "Setup\Setup.vdproj", "{67B11AEB-19AB-4FED-A738-953BC03BD160}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -303,6 +305,25 @@ Global
 		{4F96123C-BA41-445D-857F-11F3516A2A5E}.Release|x64.Build.0 = Release|Any CPU
 		{4F96123C-BA41-445D-857F-11F3516A2A5E}.Release|x86.ActiveCfg = Release|Any CPU
 		{4F96123C-BA41-445D-857F-11F3516A2A5E}.Release|x86.Build.0 = Release|Any CPU
+		{67B11AEB-19AB-4FED-A738-953BC03BD160}.Debug|Any CPU.ActiveCfg = Release
+		{67B11AEB-19AB-4FED-A738-953BC03BD160}.Debug|ARM.ActiveCfg = Debug
+		{67B11AEB-19AB-4FED-A738-953BC03BD160}.Debug|ARM.Build.0 = Debug
+		{67B11AEB-19AB-4FED-A738-953BC03BD160}.Debug|ARM64.ActiveCfg = Debug
+		{67B11AEB-19AB-4FED-A738-953BC03BD160}.Debug|ARM64.Build.0 = Debug
+		{67B11AEB-19AB-4FED-A738-953BC03BD160}.Debug|x64.ActiveCfg = Release
+		{67B11AEB-19AB-4FED-A738-953BC03BD160}.Debug|x64.Build.0 = Release
+		{67B11AEB-19AB-4FED-A738-953BC03BD160}.Debug|x86.ActiveCfg = Debug
+		{67B11AEB-19AB-4FED-A738-953BC03BD160}.Debug|x86.Build.0 = Debug
+		{67B11AEB-19AB-4FED-A738-953BC03BD160}.Release|Any CPU.ActiveCfg = Release
+		{67B11AEB-19AB-4FED-A738-953BC03BD160}.Release|Any CPU.Build.0 = Release
+		{67B11AEB-19AB-4FED-A738-953BC03BD160}.Release|ARM.ActiveCfg = Release
+		{67B11AEB-19AB-4FED-A738-953BC03BD160}.Release|ARM.Build.0 = Release
+		{67B11AEB-19AB-4FED-A738-953BC03BD160}.Release|ARM64.ActiveCfg = Release
+		{67B11AEB-19AB-4FED-A738-953BC03BD160}.Release|ARM64.Build.0 = Release
+		{67B11AEB-19AB-4FED-A738-953BC03BD160}.Release|x64.ActiveCfg = Release
+		{67B11AEB-19AB-4FED-A738-953BC03BD160}.Release|x64.Build.0 = Release
+		{67B11AEB-19AB-4FED-A738-953BC03BD160}.Release|x86.ActiveCfg = Release
+		{67B11AEB-19AB-4FED-A738-953BC03BD160}.Release|x86.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
