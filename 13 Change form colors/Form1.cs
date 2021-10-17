@@ -24,7 +24,7 @@ namespace _13_Change_form_colors
     }
 
     // This method changes the color of the form
-    private void button1_Click(object sender, EventArgs e)
+    private void Button1_Click(object sender, EventArgs e)
     {
 
             

@@ -142,7 +142,7 @@ namespace _13_Change_form_colors
             this.ChangeColorButton.TabIndex = 2;
             this.ChangeColorButton.Text = "&Change color";
             this.ChangeColorButton.UseVisualStyleBackColor = true;
-            this.ChangeColorButton.Click += new System.EventHandler(this.button1_Click);
+            this.ChangeColorButton.Click += new System.EventHandler(this.Button1_Click);
             // 
             // ResetButton
             // 

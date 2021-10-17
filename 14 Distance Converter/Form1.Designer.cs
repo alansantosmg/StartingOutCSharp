@@ -31,8 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -69,16 +69,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "De";
             // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.listBox2);
-            this.groupBox2.Location = new System.Drawing.Point(195, 70);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(140, 96);
-            this.groupBox2.TabIndex = 3;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Para";
-            // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
@@ -90,6 +80,16 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(73, 43);
             this.listBox1.TabIndex = 0;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.listBox2);
+            this.groupBox2.Location = new System.Drawing.Point(195, 70);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(140, 96);
+            this.groupBox2.TabIndex = 3;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Para";
             // 
             // listBox2
             // 
@@ -147,6 +147,7 @@
             this.button3.TabIndex = 8;
             this.button3.Text = "&Sair";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
