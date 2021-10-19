@@ -17,6 +17,24 @@ namespace Advantage_Book_Club
       InitializeComponent();
     }
 
-   
+    private void calcButton_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void clearButton_Click(object sender, EventArgs e)
+    {
+
+      pointsTextBox.Clear();
+      consumerTextBox.Clear();
+      purchasedTextBox.Clear();
+      consumerTextBox.Focus();
+
+    }
+
+    private void exitButton_Click(object sender, EventArgs e)
+    {
+      this.Close();
+    }
   }
 }

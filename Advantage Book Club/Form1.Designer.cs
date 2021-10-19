@@ -79,7 +79,6 @@
       this.pointsLabel.Size = new System.Drawing.Size(80, 13);
       this.pointsLabel.TabIndex = 4;
       this.pointsLabel.Text = "Points awarded";
-    
       // 
       // pointsTextBox
       // 
@@ -87,7 +86,6 @@
       this.pointsTextBox.Name = "pointsTextBox";
       this.pointsTextBox.Size = new System.Drawing.Size(100, 20);
       this.pointsTextBox.TabIndex = 5;
-   
       // 
       // calcButton
       // 
@@ -97,6 +95,7 @@
       this.calcButton.TabIndex = 6;
       this.calcButton.Text = "&Calculate Points";
       this.calcButton.UseVisualStyleBackColor = true;
+      this.calcButton.Click += new System.EventHandler(this.calcButton_Click);
       // 
       // clearButton
       // 
@@ -106,6 +105,7 @@
       this.clearButton.TabIndex = 7;
       this.clearButton.Text = "Cl&ear";
       this.clearButton.UseVisualStyleBackColor = true;
+      this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
       // 
       // exitButton
       // 
@@ -115,6 +115,7 @@
       this.exitButton.TabIndex = 8;
       this.exitButton.Text = "E&xit";
       this.exitButton.UseVisualStyleBackColor = true;
+      this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
       // 
       // PointsAwardedForm
       // 
