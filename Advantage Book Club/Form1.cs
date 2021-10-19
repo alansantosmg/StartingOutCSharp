@@ -26,6 +26,8 @@ namespace Advantage_Book_Club
 
        
         
+        // Choose points following purchases
+        // use pattern matching in case clauses in C# 7.3 and below
 
         switch (numberPurchased)
         {
