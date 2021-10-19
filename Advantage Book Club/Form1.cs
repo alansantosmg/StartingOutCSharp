@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace Advantage_Book_Club
 {
-  public partial class Form1 : Form
+  public partial class PointsAwardedForm : Form
   {
-    public Form1()
+    public PointsAwardedForm()
     {
       InitializeComponent();
     }
+
+   
   }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Advantage_Book_Club
 {
-  partial class Form1
+  partial class PointsAwardedForm
   {
     /// <summary>
     /// Required designer variable.
@@ -28,107 +28,109 @@
     /// </summary>
     private void InitializeComponent()
     {
-      this.label1 = new System.Windows.Forms.Label();
-      this.textBox1 = new System.Windows.Forms.TextBox();
-      this.label2 = new System.Windows.Forms.Label();
-      this.textBox2 = new System.Windows.Forms.TextBox();
-      this.label3 = new System.Windows.Forms.Label();
-      this.textBox3 = new System.Windows.Forms.TextBox();
-      this.button1 = new System.Windows.Forms.Button();
-      this.button2 = new System.Windows.Forms.Button();
-      this.button3 = new System.Windows.Forms.Button();
+      this.consumerLabel = new System.Windows.Forms.Label();
+      this.consumerTextBox = new System.Windows.Forms.TextBox();
+      this.purchasedLabel = new System.Windows.Forms.Label();
+      this.purchasedTextBox = new System.Windows.Forms.TextBox();
+      this.pointsLabel = new System.Windows.Forms.Label();
+      this.pointsTextBox = new System.Windows.Forms.TextBox();
+      this.calcButton = new System.Windows.Forms.Button();
+      this.clearButton = new System.Windows.Forms.Button();
+      this.exitButton = new System.Windows.Forms.Button();
       this.SuspendLayout();
       // 
-      // label1
+      // consumerLabel
       // 
-      this.label1.AutoSize = true;
-      this.label1.Location = new System.Drawing.Point(34, 29);
-      this.label1.Name = "label1";
-      this.label1.Size = new System.Drawing.Size(85, 13);
-      this.label1.TabIndex = 0;
-      this.label1.Text = "Consumer Name";
+      this.consumerLabel.AutoSize = true;
+      this.consumerLabel.Location = new System.Drawing.Point(34, 29);
+      this.consumerLabel.Name = "consumerLabel";
+      this.consumerLabel.Size = new System.Drawing.Size(85, 13);
+      this.consumerLabel.TabIndex = 0;
+      this.consumerLabel.Text = "Consumer Name";
       // 
-      // textBox1
+      // consumerTextBox
       // 
-      this.textBox1.Location = new System.Drawing.Point(136, 26);
-      this.textBox1.Name = "textBox1";
-      this.textBox1.Size = new System.Drawing.Size(319, 20);
-      this.textBox1.TabIndex = 1;
+      this.consumerTextBox.Location = new System.Drawing.Point(136, 26);
+      this.consumerTextBox.Name = "consumerTextBox";
+      this.consumerTextBox.Size = new System.Drawing.Size(319, 20);
+      this.consumerTextBox.TabIndex = 1;
       // 
-      // label2
+      // purchasedLabel
       // 
-      this.label2.AutoSize = true;
-      this.label2.Location = new System.Drawing.Point(34, 61);
-      this.label2.Name = "label2";
-      this.label2.Size = new System.Drawing.Size(90, 13);
-      this.label2.TabIndex = 2;
-      this.label2.Text = "Books purchased";
+      this.purchasedLabel.AutoSize = true;
+      this.purchasedLabel.Location = new System.Drawing.Point(34, 61);
+      this.purchasedLabel.Name = "purchasedLabel";
+      this.purchasedLabel.Size = new System.Drawing.Size(90, 13);
+      this.purchasedLabel.TabIndex = 2;
+      this.purchasedLabel.Text = "Books purchased";
       // 
-      // textBox2
+      // purchasedTextBox
       // 
-      this.textBox2.Location = new System.Drawing.Point(136, 58);
-      this.textBox2.Name = "textBox2";
-      this.textBox2.Size = new System.Drawing.Size(100, 20);
-      this.textBox2.TabIndex = 3;
+      this.purchasedTextBox.Location = new System.Drawing.Point(136, 58);
+      this.purchasedTextBox.Name = "purchasedTextBox";
+      this.purchasedTextBox.Size = new System.Drawing.Size(100, 20);
+      this.purchasedTextBox.TabIndex = 3;
       // 
-      // label3
+      // pointsLabel
       // 
-      this.label3.AutoSize = true;
-      this.label3.Location = new System.Drawing.Point(253, 61);
-      this.label3.Name = "label3";
-      this.label3.Size = new System.Drawing.Size(80, 13);
-      this.label3.TabIndex = 4;
-      this.label3.Text = "Points awarded";
+      this.pointsLabel.AutoSize = true;
+      this.pointsLabel.Location = new System.Drawing.Point(253, 61);
+      this.pointsLabel.Name = "pointsLabel";
+      this.pointsLabel.Size = new System.Drawing.Size(80, 13);
+      this.pointsLabel.TabIndex = 4;
+      this.pointsLabel.Text = "Points awarded";
+    
       // 
-      // textBox3
+      // pointsTextBox
       // 
-      this.textBox3.Location = new System.Drawing.Point(355, 58);
-      this.textBox3.Name = "textBox3";
-      this.textBox3.Size = new System.Drawing.Size(100, 20);
-      this.textBox3.TabIndex = 5;
+      this.pointsTextBox.Location = new System.Drawing.Point(355, 58);
+      this.pointsTextBox.Name = "pointsTextBox";
+      this.pointsTextBox.Size = new System.Drawing.Size(100, 20);
+      this.pointsTextBox.TabIndex = 5;
+   
       // 
-      // button1
+      // calcButton
       // 
-      this.button1.Location = new System.Drawing.Point(37, 91);
-      this.button1.Name = "button1";
-      this.button1.Size = new System.Drawing.Size(199, 42);
-      this.button1.TabIndex = 6;
-      this.button1.Text = "&Calculate Points";
-      this.button1.UseVisualStyleBackColor = true;
+      this.calcButton.Location = new System.Drawing.Point(37, 91);
+      this.calcButton.Name = "calcButton";
+      this.calcButton.Size = new System.Drawing.Size(199, 42);
+      this.calcButton.TabIndex = 6;
+      this.calcButton.Text = "&Calculate Points";
+      this.calcButton.UseVisualStyleBackColor = true;
       // 
-      // button2
+      // clearButton
       // 
-      this.button2.Location = new System.Drawing.Point(282, 90);
-      this.button2.Name = "button2";
-      this.button2.Size = new System.Drawing.Size(75, 43);
-      this.button2.TabIndex = 7;
-      this.button2.Text = "Cl&ear";
-      this.button2.UseVisualStyleBackColor = true;
+      this.clearButton.Location = new System.Drawing.Point(282, 90);
+      this.clearButton.Name = "clearButton";
+      this.clearButton.Size = new System.Drawing.Size(75, 43);
+      this.clearButton.TabIndex = 7;
+      this.clearButton.Text = "Cl&ear";
+      this.clearButton.UseVisualStyleBackColor = true;
       // 
-      // button3
+      // exitButton
       // 
-      this.button3.Location = new System.Drawing.Point(380, 90);
-      this.button3.Name = "button3";
-      this.button3.Size = new System.Drawing.Size(75, 43);
-      this.button3.TabIndex = 8;
-      this.button3.Text = "E&xit";
-      this.button3.UseVisualStyleBackColor = true;
+      this.exitButton.Location = new System.Drawing.Point(380, 90);
+      this.exitButton.Name = "exitButton";
+      this.exitButton.Size = new System.Drawing.Size(75, 43);
+      this.exitButton.TabIndex = 8;
+      this.exitButton.Text = "E&xit";
+      this.exitButton.UseVisualStyleBackColor = true;
       // 
-      // Form1
+      // PointsAwardedForm
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(495, 166);
-      this.Controls.Add(this.button3);
-      this.Controls.Add(this.button2);
-      this.Controls.Add(this.button1);
-      this.Controls.Add(this.textBox3);
-      this.Controls.Add(this.label3);
-      this.Controls.Add(this.textBox2);
-      this.Controls.Add(this.label2);
-      this.Controls.Add(this.textBox1);
-      this.Controls.Add(this.label1);
-      this.Name = "Form1";
+      this.Controls.Add(this.exitButton);
+      this.Controls.Add(this.clearButton);
+      this.Controls.Add(this.calcButton);
+      this.Controls.Add(this.pointsTextBox);
+      this.Controls.Add(this.pointsLabel);
+      this.Controls.Add(this.purchasedTextBox);
+      this.Controls.Add(this.purchasedLabel);
+      this.Controls.Add(this.consumerTextBox);
+      this.Controls.Add(this.consumerLabel);
+      this.Name = "PointsAwardedForm";
       this.Text = "Points awarded";
       this.ResumeLayout(false);
       this.PerformLayout();
@@ -137,15 +139,15 @@
 
     #endregion
 
-    private System.Windows.Forms.Label label1;
-    private System.Windows.Forms.TextBox textBox1;
-    private System.Windows.Forms.Label label2;
-    private System.Windows.Forms.TextBox textBox2;
-    private System.Windows.Forms.Label label3;
-    private System.Windows.Forms.TextBox textBox3;
-    private System.Windows.Forms.Button button1;
-    private System.Windows.Forms.Button button2;
-    private System.Windows.Forms.Button button3;
+    private System.Windows.Forms.Label consumerLabel;
+    private System.Windows.Forms.TextBox consumerTextBox;
+    private System.Windows.Forms.Label purchasedLabel;
+    private System.Windows.Forms.TextBox purchasedTextBox;
+    private System.Windows.Forms.Label pointsLabel;
+    private System.Windows.Forms.TextBox pointsTextBox;
+    private System.Windows.Forms.Button calcButton;
+    private System.Windows.Forms.Button clearButton;
+    private System.Windows.Forms.Button exitButton;
   }
 }
 
