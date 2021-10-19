@@ -86,5 +86,10 @@ namespace Advantage_Book_Club
     {
       this.Close();
     }
+
+    private void pointsTextBox_TextChanged(object sender, EventArgs e)
+    {
+
+    }
   }
 }

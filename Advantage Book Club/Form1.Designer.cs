@@ -51,7 +51,8 @@
       this.purchasedTextBox.Location = new System.Drawing.Point(136, 58);
       this.purchasedTextBox.Name = "purchasedTextBox";
       this.purchasedTextBox.Size = new System.Drawing.Size(100, 20);
-      this.purchasedTextBox.TabIndex = 3;
+      this.purchasedTextBox.TabIndex = 1;
+      this.purchasedTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
       // 
       // pointsLabel
       // 
@@ -66,15 +67,19 @@
       // 
       this.pointsTextBox.Location = new System.Drawing.Point(355, 58);
       this.pointsTextBox.Name = "pointsTextBox";
+      this.pointsTextBox.ReadOnly = true;
       this.pointsTextBox.Size = new System.Drawing.Size(100, 20);
-      this.pointsTextBox.TabIndex = 5;
+      this.pointsTextBox.TabIndex = 0;
+      this.pointsTextBox.TabStop = false;
+      this.pointsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+      this.pointsTextBox.TextChanged += new System.EventHandler(this.pointsTextBox_TextChanged);
       // 
       // calcButton
       // 
       this.calcButton.Location = new System.Drawing.Point(37, 91);
       this.calcButton.Name = "calcButton";
       this.calcButton.Size = new System.Drawing.Size(199, 42);
-      this.calcButton.TabIndex = 6;
+      this.calcButton.TabIndex = 2;
       this.calcButton.Text = "&Calculate Points";
       this.calcButton.UseVisualStyleBackColor = true;
       this.calcButton.Click += new System.EventHandler(this.calcButton_Click);
@@ -84,7 +89,7 @@
       this.clearButton.Location = new System.Drawing.Point(282, 90);
       this.clearButton.Name = "clearButton";
       this.clearButton.Size = new System.Drawing.Size(75, 43);
-      this.clearButton.TabIndex = 7;
+      this.clearButton.TabIndex = 3;
       this.clearButton.Text = "Cl&ear";
       this.clearButton.UseVisualStyleBackColor = true;
       this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
@@ -94,7 +99,7 @@
       this.exitButton.Location = new System.Drawing.Point(380, 90);
       this.exitButton.Name = "exitButton";
       this.exitButton.Size = new System.Drawing.Size(75, 43);
-      this.exitButton.TabIndex = 8;
+      this.exitButton.TabIndex = 4;
       this.exitButton.Text = "E&xit";
       this.exitButton.UseVisualStyleBackColor = true;
       this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
