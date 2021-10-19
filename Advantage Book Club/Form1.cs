@@ -20,15 +20,63 @@ namespace Advantage_Book_Club
     private void calcButton_Click(object sender, EventArgs e)
     {
 
+
+      if(int.TryParse(purchasedTextBox.Text, out int numberPurchased))
+      {
+
+       
+        
+
+        switch (numberPurchased)
+        {
+          case var n when (n <=  0):
+            pointsTextBox.Text = "0";
+            break;
+          case 1:
+            pointsTextBox.Text = "5"; 
+            break;
+          case 2:
+            pointsTextBox.Text = "15";
+            break;
+          case 3:
+            pointsTextBox.Text = "30"; 
+            break;
+          case var n when (n >= 4):
+            pointsTextBox.Text = "60";
+            break;        
+         
+        }
+
+
+
+      }
+      else
+      {
+        MessageBox.Show("Please, input integer number");
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 
     private void clearButton_Click(object sender, EventArgs e)
     {
 
       pointsTextBox.Clear();
-      consumerTextBox.Clear();
+     
       purchasedTextBox.Clear();
-      consumerTextBox.Focus();
+      purchasedTextBox.Focus();
 
     }
 

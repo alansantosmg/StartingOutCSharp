@@ -28,8 +28,6 @@
     /// </summary>
     private void InitializeComponent()
     {
-      this.consumerLabel = new System.Windows.Forms.Label();
-      this.consumerTextBox = new System.Windows.Forms.TextBox();
       this.purchasedLabel = new System.Windows.Forms.Label();
       this.purchasedTextBox = new System.Windows.Forms.TextBox();
       this.pointsLabel = new System.Windows.Forms.Label();
@@ -38,22 +36,6 @@
       this.clearButton = new System.Windows.Forms.Button();
       this.exitButton = new System.Windows.Forms.Button();
       this.SuspendLayout();
-      // 
-      // consumerLabel
-      // 
-      this.consumerLabel.AutoSize = true;
-      this.consumerLabel.Location = new System.Drawing.Point(34, 29);
-      this.consumerLabel.Name = "consumerLabel";
-      this.consumerLabel.Size = new System.Drawing.Size(85, 13);
-      this.consumerLabel.TabIndex = 0;
-      this.consumerLabel.Text = "Consumer Name";
-      // 
-      // consumerTextBox
-      // 
-      this.consumerTextBox.Location = new System.Drawing.Point(136, 26);
-      this.consumerTextBox.Name = "consumerTextBox";
-      this.consumerTextBox.Size = new System.Drawing.Size(319, 20);
-      this.consumerTextBox.TabIndex = 1;
       // 
       // purchasedLabel
       // 
@@ -121,7 +103,7 @@
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(495, 166);
+      this.ClientSize = new System.Drawing.Size(495, 185);
       this.Controls.Add(this.exitButton);
       this.Controls.Add(this.clearButton);
       this.Controls.Add(this.calcButton);
@@ -129,8 +111,6 @@
       this.Controls.Add(this.pointsLabel);
       this.Controls.Add(this.purchasedTextBox);
       this.Controls.Add(this.purchasedLabel);
-      this.Controls.Add(this.consumerTextBox);
-      this.Controls.Add(this.consumerLabel);
       this.Name = "PointsAwardedForm";
       this.Text = "Points awarded";
       this.ResumeLayout(false);
@@ -139,9 +119,6 @@
     }
 
     #endregion
-
-    private System.Windows.Forms.Label consumerLabel;
-    private System.Windows.Forms.TextBox consumerTextBox;
     private System.Windows.Forms.Label purchasedLabel;
     private System.Windows.Forms.TextBox purchasedTextBox;
     private System.Windows.Forms.Label pointsLabel;
