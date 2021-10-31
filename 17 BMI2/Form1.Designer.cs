@@ -31,13 +31,13 @@
             this.weightLabel = new System.Windows.Forms.Label();
             this.heightLabel = new System.Windows.Forms.Label();
             this.personGroupBox = new System.Windows.Forms.GroupBox();
-            this.weightTextBox = new System.Windows.Forms.TextBox();
             this.heightTextBox = new System.Windows.Forms.TextBox();
+            this.weightTextBox = new System.Windows.Forms.TextBox();
             this.bmiCalcButton = new System.Windows.Forms.Button();
             this.clearButton = new System.Windows.Forms.Button();
             this.ExitButton = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.bmiLabel = new System.Windows.Forms.Label();
+            this.diagnosisLabel = new System.Windows.Forms.Label();
             this.bmiResultLabel = new System.Windows.Forms.Label();
             this.diagnosisResultLabel = new System.Windows.Forms.Label();
             this.personGroupBox.SuspendLayout();
@@ -74,14 +74,6 @@
             this.personGroupBox.TabStop = false;
             this.personGroupBox.Text = "Person Information";
             // 
-            // weightTextBox
-            // 
-            this.weightTextBox.Location = new System.Drawing.Point(94, 27);
-            this.weightTextBox.Name = "weightTextBox";
-            this.weightTextBox.Size = new System.Drawing.Size(100, 20);
-            this.weightTextBox.TabIndex = 1;
-            this.weightTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
             // heightTextBox
             // 
             this.heightTextBox.Location = new System.Drawing.Point(94, 63);
@@ -89,6 +81,14 @@
             this.heightTextBox.Size = new System.Drawing.Size(100, 20);
             this.heightTextBox.TabIndex = 2;
             this.heightTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // weightTextBox
+            // 
+            this.weightTextBox.Location = new System.Drawing.Point(94, 27);
+            this.weightTextBox.Name = "weightTextBox";
+            this.weightTextBox.Size = new System.Drawing.Size(100, 20);
+            this.weightTextBox.TabIndex = 1;
+            this.weightTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // bmiCalcButton
             // 
@@ -98,6 +98,7 @@
             this.bmiCalcButton.TabIndex = 3;
             this.bmiCalcButton.Text = "&BMI Calc";
             this.bmiCalcButton.UseVisualStyleBackColor = true;
+            this.bmiCalcButton.Click += new System.EventHandler(this.bmiCalcButton_Click);
             // 
             // clearButton
             // 
@@ -107,6 +108,7 @@
             this.clearButton.TabIndex = 4;
             this.clearButton.Text = "Cl&ear";
             this.clearButton.UseVisualStyleBackColor = true;
+            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
             // 
             // ExitButton
             // 
@@ -116,24 +118,25 @@
             this.ExitButton.TabIndex = 5;
             this.ExitButton.Text = "E&xit";
             this.ExitButton.UseVisualStyleBackColor = true;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
-            // label3
+            // bmiLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(53, 145);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(29, 13);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "BMI:";
+            this.bmiLabel.AutoSize = true;
+            this.bmiLabel.Location = new System.Drawing.Point(53, 145);
+            this.bmiLabel.Name = "bmiLabel";
+            this.bmiLabel.Size = new System.Drawing.Size(29, 13);
+            this.bmiLabel.TabIndex = 6;
+            this.bmiLabel.Text = "BMI:";
             // 
-            // label4
+            // diagnosisLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(53, 173);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 13);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Diagnosis:";
+            this.diagnosisLabel.AutoSize = true;
+            this.diagnosisLabel.Location = new System.Drawing.Point(53, 173);
+            this.diagnosisLabel.Name = "diagnosisLabel";
+            this.diagnosisLabel.Size = new System.Drawing.Size(56, 13);
+            this.diagnosisLabel.TabIndex = 7;
+            this.diagnosisLabel.Text = "Diagnosis:";
             // 
             // bmiResultLabel
             // 
@@ -158,8 +161,8 @@
             this.ClientSize = new System.Drawing.Size(309, 268);
             this.Controls.Add(this.diagnosisResultLabel);
             this.Controls.Add(this.bmiResultLabel);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.diagnosisLabel);
+            this.Controls.Add(this.bmiLabel);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.clearButton);
             this.Controls.Add(this.bmiCalcButton);
@@ -183,8 +186,8 @@
         private System.Windows.Forms.Button bmiCalcButton;
         private System.Windows.Forms.Button clearButton;
         private System.Windows.Forms.Button ExitButton;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label bmiLabel;
+        private System.Windows.Forms.Label diagnosisLabel;
         private System.Windows.Forms.Label bmiResultLabel;
         private System.Windows.Forms.Label diagnosisResultLabel;
     }
