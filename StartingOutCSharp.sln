@@ -31,6 +31,8 @@ Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "14 Setup Distance Converter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15 Advantage Book Club", "Advantage Book Club\15 Advantage Book Club.csproj", "{C5F5E2CC-7D53-4B92-BFB9-868A9FCB1B61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16 Sales discount", "16 Sales discount\16 Sales discount.csproj", "{6D05EFF5-206A-417D-AF09-E0B5C32628ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -324,6 +326,26 @@ Global
 		{C5F5E2CC-7D53-4B92-BFB9-868A9FCB1B61}.Release|x64.Build.0 = Release|Any CPU
 		{C5F5E2CC-7D53-4B92-BFB9-868A9FCB1B61}.Release|x86.ActiveCfg = Release|Any CPU
 		{C5F5E2CC-7D53-4B92-BFB9-868A9FCB1B61}.Release|x86.Build.0 = Release|Any CPU
+		{6D05EFF5-206A-417D-AF09-E0B5C32628ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D05EFF5-206A-417D-AF09-E0B5C32628ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D05EFF5-206A-417D-AF09-E0B5C32628ED}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{6D05EFF5-206A-417D-AF09-E0B5C32628ED}.Debug|ARM.Build.0 = Debug|Any CPU
+		{6D05EFF5-206A-417D-AF09-E0B5C32628ED}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{6D05EFF5-206A-417D-AF09-E0B5C32628ED}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{6D05EFF5-206A-417D-AF09-E0B5C32628ED}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6D05EFF5-206A-417D-AF09-E0B5C32628ED}.Debug|x64.Build.0 = Debug|Any CPU
+		{6D05EFF5-206A-417D-AF09-E0B5C32628ED}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6D05EFF5-206A-417D-AF09-E0B5C32628ED}.Debug|x86.Build.0 = Debug|Any CPU
+		{6D05EFF5-206A-417D-AF09-E0B5C32628ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D05EFF5-206A-417D-AF09-E0B5C32628ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D05EFF5-206A-417D-AF09-E0B5C32628ED}.Release|ARM.ActiveCfg = Release|Any CPU
+		{6D05EFF5-206A-417D-AF09-E0B5C32628ED}.Release|ARM.Build.0 = Release|Any CPU
+		{6D05EFF5-206A-417D-AF09-E0B5C32628ED}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{6D05EFF5-206A-417D-AF09-E0B5C32628ED}.Release|ARM64.Build.0 = Release|Any CPU
+		{6D05EFF5-206A-417D-AF09-E0B5C32628ED}.Release|x64.ActiveCfg = Release|Any CPU
+		{6D05EFF5-206A-417D-AF09-E0B5C32628ED}.Release|x64.Build.0 = Release|Any CPU
+		{6D05EFF5-206A-417D-AF09-E0B5C32628ED}.Release|x86.ActiveCfg = Release|Any CPU
+		{6D05EFF5-206A-417D-AF09-E0B5C32628ED}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
