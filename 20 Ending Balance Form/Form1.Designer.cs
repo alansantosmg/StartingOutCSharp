@@ -81,6 +81,7 @@
             this.clearButton.TabIndex = 5;
             this.clearButton.Text = "Cl&ear";
             this.clearButton.UseVisualStyleBackColor = true;
+            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
             // 
             // exitButton
             // 

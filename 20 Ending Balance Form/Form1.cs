@@ -21,5 +21,12 @@ namespace _20_Ending_Balance_Form
         {
             this.Close();   
         }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            startingBalanceTextBox.Clear();
+            numberMonthsTextBox.Clear();
+            endingBalanceTextBox.Clear();
+        }
     }
 }
