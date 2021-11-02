@@ -45,7 +45,35 @@ namespace _22_Friend_file
                 // file error operation message
                 MessageBox.Show(ex.Message);
             }
-        
+
+        }
+
+        private void appendButton_Click(object sender, EventArgs e)
+        {
+            // cath file operation errors
+            try
+            {
+                // create streamWrite object 
+                StreamWriter outPutFile = File.AppendText(@"c:\users\alans\Documents\Friend.txt");
+
+                // write stream to file
+                outPutFile.WriteLine(nameTextBox1.Text);
+
+                // close the file
+                outPutFile.Close();
+            }
+
+
+            catch (Exception ex)
+            {
+                // file error operation message
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
