@@ -27,6 +27,7 @@ namespace _20_Ending_Balance_Form
             startingBalTextBox.Clear();
             monthsTextBox.Clear();
             endingBalanceTextBox.Clear();
+            DetailListBox.Items.Clear();
             startingBalTextBox.Focus();
         }
 
@@ -48,15 +49,17 @@ namespace _20_Ending_Balance_Form
                 // Get the mumber of the months
                 if (int.TryParse(monthsTextBox.Text, out months))
                 {
+                    DetailListBox.Items.Clear();
+
                     // the following loop calculates the ending balance
                     while (count <= months)
                     {
                         // add this month's interests to the balance
                         balance = balance + (INTEREST_RATE * balance);
+                        
+                        
+                        DetailListBox.Items.Add($"The ending balance for the month  {count} is {balance.ToString("c")}");
                         count++;
-
-                        DetailListBox.Items.Add($"The ending balance for the month  {monthsTextBox.Text} is {balance.ToString("c")}");
-
 
                     }
 
