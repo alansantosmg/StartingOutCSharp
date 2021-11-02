@@ -16,5 +16,10 @@ namespace _20_Ending_Balance_Form
         {
             InitializeComponent();
         }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();   
+        }
     }
 }

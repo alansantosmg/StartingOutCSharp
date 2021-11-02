@@ -28,106 +28,111 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.startingBalanceTextBox = new System.Windows.Forms.TextBox();
+            this.numberMonthsTextBox = new System.Windows.Forms.TextBox();
+            this.endingBalanceTextBox = new System.Windows.Forms.TextBox();
+            this.CalculateButton = new System.Windows.Forms.Button();
+            this.clearButton = new System.Windows.Forms.Button();
+            this.exitButton = new System.Windows.Forms.Button();
+            this.startingBalanceLabel = new System.Windows.Forms.Label();
+            this.numberMonthsLabel = new System.Windows.Forms.Label();
+            this.endingBalancelabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox1
+            // startingBalanceTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(199, 43);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(169, 20);
-            this.textBox1.TabIndex = 1;
+            this.startingBalanceTextBox.Location = new System.Drawing.Point(199, 43);
+            this.startingBalanceTextBox.Name = "startingBalanceTextBox";
+            this.startingBalanceTextBox.Size = new System.Drawing.Size(169, 20);
+            this.startingBalanceTextBox.TabIndex = 1;
+            this.startingBalanceTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox2
+            // numberMonthsTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(199, 87);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(169, 20);
-            this.textBox2.TabIndex = 2;
+            this.numberMonthsTextBox.Location = new System.Drawing.Point(199, 87);
+            this.numberMonthsTextBox.Name = "numberMonthsTextBox";
+            this.numberMonthsTextBox.Size = new System.Drawing.Size(169, 20);
+            this.numberMonthsTextBox.TabIndex = 2;
+            this.numberMonthsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox3
+            // endingBalanceTextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(199, 133);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(169, 20);
-            this.textBox3.TabIndex = 3;
+            this.endingBalanceTextBox.Location = new System.Drawing.Point(199, 133);
+            this.endingBalanceTextBox.Name = "endingBalanceTextBox";
+            this.endingBalanceTextBox.ReadOnly = true;
+            this.endingBalanceTextBox.Size = new System.Drawing.Size(169, 20);
+            this.endingBalanceTextBox.TabIndex = 3;
+            this.endingBalanceTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // button1
+            // CalculateButton
             // 
-            this.button1.Location = new System.Drawing.Point(91, 171);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "&Calculate";
-            this.button1.UseVisualStyleBackColor = true;
+            this.CalculateButton.Location = new System.Drawing.Point(91, 171);
+            this.CalculateButton.Name = "CalculateButton";
+            this.CalculateButton.Size = new System.Drawing.Size(75, 23);
+            this.CalculateButton.TabIndex = 4;
+            this.CalculateButton.Text = "&Calculate";
+            this.CalculateButton.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // clearButton
             // 
-            this.button2.Location = new System.Drawing.Point(183, 171);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Cl&ear";
-            this.button2.UseVisualStyleBackColor = true;
+            this.clearButton.Location = new System.Drawing.Point(190, 171);
+            this.clearButton.Name = "clearButton";
+            this.clearButton.Size = new System.Drawing.Size(75, 23);
+            this.clearButton.TabIndex = 5;
+            this.clearButton.Text = "Cl&ear";
+            this.clearButton.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // exitButton
             // 
-            this.button3.Location = new System.Drawing.Point(293, 171);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "E&xit";
-            this.button3.UseVisualStyleBackColor = true;
+            this.exitButton.Location = new System.Drawing.Point(293, 171);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(75, 23);
+            this.exitButton.TabIndex = 6;
+            this.exitButton.Text = "E&xit";
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
-            // label1
+            // startingBalanceLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(88, 43);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 13);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Starting Balance";
+            this.startingBalanceLabel.AutoSize = true;
+            this.startingBalanceLabel.Location = new System.Drawing.Point(88, 43);
+            this.startingBalanceLabel.Name = "startingBalanceLabel";
+            this.startingBalanceLabel.Size = new System.Drawing.Size(85, 13);
+            this.startingBalanceLabel.TabIndex = 6;
+            this.startingBalanceLabel.Text = "Starting Balance";
             // 
-            // label2
+            // numberMonthsLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(88, 87);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(94, 13);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Number of Months";
+            this.numberMonthsLabel.AutoSize = true;
+            this.numberMonthsLabel.Location = new System.Drawing.Point(88, 87);
+            this.numberMonthsLabel.Name = "numberMonthsLabel";
+            this.numberMonthsLabel.Size = new System.Drawing.Size(94, 13);
+            this.numberMonthsLabel.TabIndex = 7;
+            this.numberMonthsLabel.Text = "Number of Months";
             // 
-            // label3
+            // endingBalancelabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(91, 133);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 13);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Ending Balance";
+            this.endingBalancelabel.AutoSize = true;
+            this.endingBalancelabel.Location = new System.Drawing.Point(91, 133);
+            this.endingBalancelabel.Name = "endingBalancelabel";
+            this.endingBalancelabel.Size = new System.Drawing.Size(82, 13);
+            this.endingBalancelabel.TabIndex = 8;
+            this.endingBalancelabel.Text = "Ending Balance";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(463, 237);
+            this.Controls.Add(this.endingBalancelabel);
+            this.Controls.Add(this.numberMonthsLabel);
+            this.Controls.Add(this.startingBalanceLabel);
+            this.Controls.Add(this.exitButton);
+            this.Controls.Add(this.clearButton);
+            this.Controls.Add(this.CalculateButton);
+            this.Controls.Add(this.endingBalanceTextBox);
+            this.Controls.Add(this.numberMonthsTextBox);
+            this.Controls.Add(this.startingBalanceTextBox);
             this.Name = "Form1";
             this.Text = "Ending Balance";
             this.ResumeLayout(false);
@@ -137,15 +142,15 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox startingBalanceTextBox;
+        private System.Windows.Forms.TextBox numberMonthsTextBox;
+        private System.Windows.Forms.TextBox endingBalanceTextBox;
+        private System.Windows.Forms.Button CalculateButton;
+        private System.Windows.Forms.Button clearButton;
+        private System.Windows.Forms.Button exitButton;
+        private System.Windows.Forms.Label startingBalanceLabel;
+        private System.Windows.Forms.Label numberMonthsLabel;
+        private System.Windows.Forms.Label endingBalancelabel;
     }
 }
 
