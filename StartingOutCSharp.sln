@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17 BMI2", "17 BMI2\17 BMI2.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18 Name List application", "18 Name List application\18 Name List application.csproj", "{BF8502C2-3503-401E-9D06-3EA5A4A67E7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19 while loop demo", "19 while loop demo\19 while loop demo.csproj", "{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -390,6 +392,26 @@ Global
 		{BF8502C2-3503-401E-9D06-3EA5A4A67E7F}.Release|x64.Build.0 = Release|Any CPU
 		{BF8502C2-3503-401E-9D06-3EA5A4A67E7F}.Release|x86.ActiveCfg = Release|Any CPU
 		{BF8502C2-3503-401E-9D06-3EA5A4A67E7F}.Release|x86.Build.0 = Release|Any CPU
+		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Debug|ARM.Build.0 = Debug|Any CPU
+		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Debug|x64.Build.0 = Debug|Any CPU
+		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Debug|x86.Build.0 = Debug|Any CPU
+		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Release|ARM.ActiveCfg = Release|Any CPU
+		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Release|ARM.Build.0 = Release|Any CPU
+		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Release|ARM64.Build.0 = Release|Any CPU
+		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Release|x64.ActiveCfg = Release|Any CPU
+		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Release|x64.Build.0 = Release|Any CPU
+		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Release|x86.ActiveCfg = Release|Any CPU
+		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
