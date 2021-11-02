@@ -61,6 +61,7 @@
             this.ClearButton.TabIndex = 2;
             this.ClearButton.Text = "Cl&ear";
             this.ClearButton.UseVisualStyleBackColor = true;
+            this.ClearButton.Click += new System.EventHandler(this.ClearButton_Click);
             // 
             // exitButton
             // 
@@ -70,6 +71,7 @@
             this.exitButton.TabIndex = 3;
             this.exitButton.Text = "E&xit";
             this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // Form1
             // 

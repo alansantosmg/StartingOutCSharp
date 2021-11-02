@@ -16,5 +16,15 @@ namespace _21_Km_to_miles
         {
             InitializeComponent();
         }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void ClearButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
