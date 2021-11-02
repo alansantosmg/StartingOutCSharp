@@ -9,6 +9,7 @@ Demo app that shows how to create and write streams to a text file.
 * Use of ***try catch*** to get file operations errors.
 * Use of file path to define the file location.
 * Use of ***append*** to add new lines to existing file.
+* Implemented form tabcontrol. 
 
 ## Contribute
 
