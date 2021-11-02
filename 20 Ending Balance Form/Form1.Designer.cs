@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.startingBalanceTextBox = new System.Windows.Forms.TextBox();
-            this.numberMonthsTextBox = new System.Windows.Forms.TextBox();
+            this.startingBalTextBox = new System.Windows.Forms.TextBox();
+            this.monthsTextBox = new System.Windows.Forms.TextBox();
             this.endingBalanceTextBox = new System.Windows.Forms.TextBox();
             this.CalculateButton = new System.Windows.Forms.Button();
             this.clearButton = new System.Windows.Forms.Button();
@@ -39,21 +39,21 @@
             this.endingBalancelabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // startingBalanceTextBox
+            // startingBalTextBox
             // 
-            this.startingBalanceTextBox.Location = new System.Drawing.Point(199, 43);
-            this.startingBalanceTextBox.Name = "startingBalanceTextBox";
-            this.startingBalanceTextBox.Size = new System.Drawing.Size(169, 20);
-            this.startingBalanceTextBox.TabIndex = 1;
-            this.startingBalanceTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.startingBalTextBox.Location = new System.Drawing.Point(199, 43);
+            this.startingBalTextBox.Name = "startingBalTextBox";
+            this.startingBalTextBox.Size = new System.Drawing.Size(169, 20);
+            this.startingBalTextBox.TabIndex = 1;
+            this.startingBalTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // numberMonthsTextBox
+            // monthsTextBox
             // 
-            this.numberMonthsTextBox.Location = new System.Drawing.Point(199, 87);
-            this.numberMonthsTextBox.Name = "numberMonthsTextBox";
-            this.numberMonthsTextBox.Size = new System.Drawing.Size(169, 20);
-            this.numberMonthsTextBox.TabIndex = 2;
-            this.numberMonthsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.monthsTextBox.Location = new System.Drawing.Point(199, 87);
+            this.monthsTextBox.Name = "monthsTextBox";
+            this.monthsTextBox.Size = new System.Drawing.Size(169, 20);
+            this.monthsTextBox.TabIndex = 2;
+            this.monthsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // endingBalanceTextBox
             // 
@@ -72,6 +72,7 @@
             this.CalculateButton.TabIndex = 4;
             this.CalculateButton.Text = "&Calculate";
             this.CalculateButton.UseVisualStyleBackColor = true;
+            this.CalculateButton.Click += new System.EventHandler(this.CalculateButton_Click);
             // 
             // clearButton
             // 
@@ -132,8 +133,8 @@
             this.Controls.Add(this.clearButton);
             this.Controls.Add(this.CalculateButton);
             this.Controls.Add(this.endingBalanceTextBox);
-            this.Controls.Add(this.numberMonthsTextBox);
-            this.Controls.Add(this.startingBalanceTextBox);
+            this.Controls.Add(this.monthsTextBox);
+            this.Controls.Add(this.startingBalTextBox);
             this.Name = "Form1";
             this.Text = "Ending Balance";
             this.ResumeLayout(false);
@@ -143,8 +144,8 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox startingBalanceTextBox;
-        private System.Windows.Forms.TextBox numberMonthsTextBox;
+        private System.Windows.Forms.TextBox startingBalTextBox;
+        private System.Windows.Forms.TextBox monthsTextBox;
         private System.Windows.Forms.TextBox endingBalanceTextBox;
         private System.Windows.Forms.Button CalculateButton;
         private System.Windows.Forms.Button clearButton;

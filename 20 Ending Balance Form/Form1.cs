@@ -24,9 +24,61 @@ namespace _20_Ending_Balance_Form
 
         private void clearButton_Click(object sender, EventArgs e)
         {
-            startingBalanceTextBox.Clear();
-            numberMonthsTextBox.Clear();
+            startingBalTextBox.Clear();
+            monthsTextBox.Clear();
             endingBalanceTextBox.Clear();
+            startingBalTextBox.Focus();
+        }
+
+        private void CalculateButton_Click(object sender, EventArgs e)
+        {
+            
+            // constant for the monthly interest rate
+            const decimal INTEREST_RATE = 0.005m;
+
+            // local variables
+            decimal balance;    // the account balance
+            int months;         // the number of the months
+            
+            int count = 1;      // the loop counter
+
+            // get starting the balance
+            if (decimal.TryParse(startingBalTextBox.Text, out balance))
+            {
+                // Get the mumber of the months
+                if (int.TryParse(monthsTextBox.Text, out months))
+                {
+                    // the following loop calculates the ending balance
+                    while (count <= months)
+                    {
+                        // add this month's interests to the balance
+                        balance = balance + (INTEREST_RATE * balance);
+                        count++;
+
+                    }
+
+                    // display ending balance
+                    endingBalanceTextBox.Text = balance.ToString("c");
+
+                }
+                else
+                {
+                    // invalid number of months was entered
+                    MessageBox.Show("Invalid value for mounths");
+                }
+
+            }
+            else
+            {
+                // invalid balance was entered
+                MessageBox.Show("Invalid value for balance");
+            }
+
+
+
+
+
+
         }
     }
 }
