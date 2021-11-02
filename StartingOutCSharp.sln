@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19 while loop demo", "19 wh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20 Ending Balance Form", "20 Ending Balance Form\20 Ending Balance Form.csproj", "{96619BA2-F16E-4FFF-BD84-89F37D416F38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21 Km to miles", "21 Km to miles\21 Km to miles.csproj", "{DF8C2C64-A173-486F-95E2-85700B7A827E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -434,6 +436,26 @@ Global
 		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Release|x64.Build.0 = Release|Any CPU
 		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Release|x86.ActiveCfg = Release|Any CPU
 		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Release|x86.Build.0 = Release|Any CPU
+		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Debug|ARM.Build.0 = Debug|Any CPU
+		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Debug|x64.Build.0 = Debug|Any CPU
+		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Debug|x86.Build.0 = Debug|Any CPU
+		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Release|ARM.Build.0 = Release|Any CPU
+		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Release|ARM64.Build.0 = Release|Any CPU
+		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Release|x64.ActiveCfg = Release|Any CPU
+		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Release|x64.Build.0 = Release|Any CPU
+		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Release|x86.ActiveCfg = Release|Any CPU
+		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
