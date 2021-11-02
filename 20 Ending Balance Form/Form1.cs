@@ -55,10 +55,15 @@ namespace _20_Ending_Balance_Form
                         balance = balance + (INTEREST_RATE * balance);
                         count++;
 
+                        DetailListBox.Items.Add($"The ending balance for the month  {monthsTextBox.Text} is {balance.ToString("c")}");
+
+
                     }
 
                     // display ending balance
                     endingBalanceTextBox.Text = balance.ToString("c");
+
+                   
 
                 }
                 else
