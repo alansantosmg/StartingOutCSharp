@@ -25,6 +25,7 @@ namespace _22_Friend_file
 
         private void button2_Click(object sender, EventArgs e)
         {
+            // close app
             this.Close();
         }
 
@@ -32,21 +33,27 @@ namespace _22_Friend_file
         {
             try
             {
-
+                // create a streamWriter object
                 StreamWriter outputFile;
+
+                // Points to streawriter object to the file location
+                // see the path!
                 outputFile = File.AppendText(@"c:\users\alans\Documents\Friend.txt");
 
+                // append file
                 outputFile.WriteLine(nameTextBox.Text);
                 outputFile.WriteLine(10);
                 outputFile.WriteLine("test");
 
+
+                // close file
                 outputFile.Close();
 
 
             }
             catch (Exception ex)
             {
-
+                // show message if got file error
                 MessageBox.Show(ex.Message) ;
             }
         }
