@@ -30,7 +30,25 @@ namespace _22_Friend_file
 
         private void button1_Click(object sender, EventArgs e)
         {
+            try
+            {
 
+                StreamWriter outputFile;
+                outputFile = File.AppendText(@"c:\users\alans\Documents\Friend.txt");
+
+                outputFile.WriteLine(nameTextBox.Text);
+                outputFile.WriteLine(10);
+                outputFile.WriteLine("test");
+
+                outputFile.Close();
+
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message) ;
+            }
         }
     }
 }

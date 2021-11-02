@@ -30,7 +30,7 @@ namespace _22_Friend_file
             try
             {
                 // create streamWrite object 
-                StreamWriter outPutFile = File.CreateText("Friend.txt");
+                StreamWriter outPutFile = File.CreateText(@"c:\users\alans\Documents\Friend.txt");
 
                 // write stream to file
                 outPutFile.WriteLine(nameTextBox.Text);
