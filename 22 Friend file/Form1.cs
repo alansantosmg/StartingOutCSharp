@@ -26,18 +26,23 @@ namespace _22_Friend_file
 
         private void writeNameButton_Click(object sender, EventArgs e)
         {
-
+            // cath file operation errors
             try
             {
+                // create streamWrite object 
                 StreamWriter outPutFile = File.CreateText("Friend.txt");
 
+                // write stream to file
                 outPutFile.WriteLine(nameTextBox.Text);
 
+                // close the file
                 outPutFile.Close();
             }
+
+
             catch (Exception ex)
             {
-
+                // file error operation message
                 MessageBox.Show(ex.Message);
             }
         
