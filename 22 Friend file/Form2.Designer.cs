@@ -1,6 +1,6 @@
 ﻿namespace _22_Friend_file
 {
-    partial class Form1
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,59 +28,60 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.appendFriendLabel = new System.Windows.Forms.Label();
+            this.appendNameLabel = new System.Windows.Forms.Label();
             this.nameTextBox = new System.Windows.Forms.TextBox();
-            this.writeNameButton = new System.Windows.Forms.Button();
+            this.appendButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // appendFriendLabel
+            // appendNameLabel
             // 
-            this.appendFriendLabel.AutoSize = true;
-            this.appendFriendLabel.Location = new System.Drawing.Point(22, 22);
-            this.appendFriendLabel.Name = "appendFriendLabel";
-            this.appendFriendLabel.Size = new System.Drawing.Size(109, 13);
-            this.appendFriendLabel.TabIndex = 0;
-            this.appendFriendLabel.Text = "Write a friend\'s name:";
+            this.appendNameLabel.AutoSize = true;
+            this.appendNameLabel.Location = new System.Drawing.Point(12, 20);
+            this.appendNameLabel.Name = "appendNameLabel";
+            this.appendNameLabel.Size = new System.Drawing.Size(129, 13);
+            this.appendNameLabel.TabIndex = 0;
+            this.appendNameLabel.Text = "Add new friend (append): ";
             // 
             // nameTextBox
             // 
-            this.nameTextBox.Location = new System.Drawing.Point(137, 19);
+            this.nameTextBox.Location = new System.Drawing.Point(156, 17);
             this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(209, 20);
+            this.nameTextBox.Size = new System.Drawing.Size(137, 20);
             this.nameTextBox.TabIndex = 1;
             // 
-            // writeNameButton
+            // appendButton
             // 
-            this.writeNameButton.Location = new System.Drawing.Point(137, 57);
-            this.writeNameButton.Name = "writeNameButton";
-            this.writeNameButton.Size = new System.Drawing.Size(95, 23);
-            this.writeNameButton.TabIndex = 2;
-            this.writeNameButton.Text = "&Write name";
-            this.writeNameButton.UseVisualStyleBackColor = true;
-            this.writeNameButton.Click += new System.EventHandler(this.writeNameButton_Click);
+            this.appendButton.Location = new System.Drawing.Point(137, 53);
+            this.appendButton.Name = "appendButton";
+            this.appendButton.Size = new System.Drawing.Size(75, 23);
+            this.appendButton.TabIndex = 2;
+            this.appendButton.Text = "&Append file";
+            this.appendButton.UseVisualStyleBackColor = true;
+            this.appendButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(251, 57);
+            this.exitButton.Location = new System.Drawing.Point(218, 53);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(95, 23);
+            this.exitButton.Size = new System.Drawing.Size(75, 23);
             this.exitButton.TabIndex = 3;
             this.exitButton.Text = "E&xit";
             this.exitButton.UseVisualStyleBackColor = true;
-            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            this.exitButton.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Form1
+            // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(396, 120);
+            this.ClientSize = new System.Drawing.Size(339, 100);
             this.Controls.Add(this.exitButton);
-            this.Controls.Add(this.writeNameButton);
+            this.Controls.Add(this.appendButton);
             this.Controls.Add(this.nameTextBox);
-            this.Controls.Add(this.appendFriendLabel);
-            this.Name = "Form1";
-            this.Text = "Friend File";
+            this.Controls.Add(this.appendNameLabel);
+            this.Name = "Form2";
+            this.Text = "Append friend";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -88,10 +89,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label appendFriendLabel;
+        private System.Windows.Forms.Label appendNameLabel;
         private System.Windows.Forms.TextBox nameTextBox;
-        private System.Windows.Forms.Button writeNameButton;
+        private System.Windows.Forms.Button appendButton;
         private System.Windows.Forms.Button exitButton;
     }
 }
-
