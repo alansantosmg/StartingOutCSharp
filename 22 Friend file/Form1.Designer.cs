@@ -58,6 +58,7 @@
             this.writeNameButton.TabIndex = 2;
             this.writeNameButton.Text = "&Write name";
             this.writeNameButton.UseVisualStyleBackColor = true;
+            this.writeNameButton.Click += new System.EventHandler(this.writeNameButton_Click);
             // 
             // exitButton
             // 
