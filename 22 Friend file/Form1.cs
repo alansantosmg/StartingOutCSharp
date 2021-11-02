@@ -16,5 +16,10 @@ namespace _22_Friend_file
         {
             InitializeComponent();
         }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
