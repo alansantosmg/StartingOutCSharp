@@ -25,6 +25,11 @@ namespace _21_Km_to_miles
         private void ClearButton_Click(object sender, EventArgs e)
         {
 
+            // clear listbox
+
+            outputListBox.Items.Clear();
+
+
         }
     }
 }
