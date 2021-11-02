@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20 Ending Balance Form", "2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21 Km to miles", "21 Km to miles\21 Km to miles.csproj", "{DF8C2C64-A173-486F-95E2-85700B7A827E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22 Friend file", "22 Friend file\22 Friend file.csproj", "{DF253496-A637-481A-8AAF-63F035E2FC0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -456,6 +458,26 @@ Global
 		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Release|x64.Build.0 = Release|Any CPU
 		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Release|x86.ActiveCfg = Release|Any CPU
 		{DF8C2C64-A173-486F-95E2-85700B7A827E}.Release|x86.Build.0 = Release|Any CPU
+		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Debug|ARM.Build.0 = Debug|Any CPU
+		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Debug|x64.Build.0 = Debug|Any CPU
+		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Debug|x86.Build.0 = Debug|Any CPU
+		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Release|ARM.ActiveCfg = Release|Any CPU
+		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Release|ARM.Build.0 = Release|Any CPU
+		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Release|ARM64.Build.0 = Release|Any CPU
+		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Release|x64.ActiveCfg = Release|Any CPU
+		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Release|x64.Build.0 = Release|Any CPU
+		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Release|x86.ActiveCfg = Release|Any CPU
+		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
