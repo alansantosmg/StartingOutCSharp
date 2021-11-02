@@ -52,6 +52,7 @@
             this.displayButton.TabIndex = 1;
             this.displayButton.Text = "&Display speeds";
             this.displayButton.UseVisualStyleBackColor = false;
+            this.displayButton.Click += new System.EventHandler(this.displayButton_Click);
             // 
             // ClearButton
             // 

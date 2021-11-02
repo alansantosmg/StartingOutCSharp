@@ -19,6 +19,9 @@ namespace _21_Km_to_miles
 
         private void exitButton_Click(object sender, EventArgs e)
         {
+            
+            // close app
+
             this.Close();
         }
 
@@ -30,6 +33,32 @@ namespace _21_Km_to_miles
             outputListBox.Items.Clear();
 
 
+        }
+
+        private void displayButton_Click(object sender, EventArgs e)
+        {
+
+            const double MILES_CONST = 0.6214;
+
+            // Clear listbox case it's not cleared when button is pressed. 
+
+            if (outputListBox.Items.Count > 0)
+            {
+                outputListBox.Items.Clear();
+            } 
+
+
+             
+            // Convert Km to miles from 60 to 130 km
+
+            for (int kph = 60; kph <= 130; kph = kph + 10)
+            {
+                double mph = kph * MILES_CONST;
+
+                outputListBox.Items.Add($"Kilometers: {kph} - Miles: {mph}");
+            } 
+
+            
         }
     }
 }
