@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31808.319
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8 payroll", "8 payroll\8 payroll.csproj", "{2AE7C175-D5C9-4DDB-A545-1A44B243C621}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08 payroll", "8 payroll\08 payroll.csproj", "{2AE7C175-D5C9-4DDB-A545-1A44B243C621}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1 Good morning", "1 good morning\1 Good morning.csproj", "{FF8E84A1-34D1-41F9-A53D-48F7DB207300}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01 Good morning", "1 good morning\01 Good morning.csproj", "{FF8E84A1-34D1-41F9-A53D-48F7DB207300}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2 Your Name", "2 Your name\2 Your Name.csproj", "{7C3EFBDC-23F6-4617-B4D3-0DAF5EF45423}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 Your Name", "2 Your name\02 Your Name.csproj", "{7C3EFBDC-23F6-4617-B4D3-0DAF5EF45423}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4 BirthDate", "4 BirthDate\4 BirthDate.csproj", "{D2A68EF2-3145-4ABC-8DC3-71F3C32CE6D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04 BirthDate", "4 BirthDate\04 BirthDate.csproj", "{D2A68EF2-3145-4ABC-8DC3-71F3C32CE6D4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5 Miles calculator", "5 Miles calculator\5 Miles calculator.csproj", "{3FD1FB61-5800-4B83-9276-714B6842C727}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05 Miles calculator", "5 Miles calculator\05 Miles calculator.csproj", "{3FD1FB61-5800-4B83-9276-714B6842C727}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6 Discount calculator", "6 discount calc\6 Discount calculator.csproj", "{3C84E622-D5EF-45AC-907D-F72B0958EE37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06 Discount calculator", "6 discount calc\06 Discount calculator.csproj", "{3C84E622-D5EF-45AC-907D-F72B0958EE37}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7 Average score", "7 Test score average\7 Average score.csproj", "{D7555B26-5BE3-4033-8D1B-1F1A6815EC75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07 Average score", "7 Test score average\07 Average score.csproj", "{D7555B26-5BE3-4033-8D1B-1F1A6815EC75}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10 Time zone", "10 Time zone\10 Time zone.csproj", "{E7475047-9F17-45E0-BA30-255A28D7461D}"
 EndProject
@@ -27,7 +27,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13 Change form colors", "13
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14 Distance Converter", "14 Distance Converter\14 Distance Converter.csproj", "{4F96123C-BA41-445D-857F-11F3516A2A5E}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "14 Setup Distance Converter", "Setup\Setup.vdproj", "{67B11AEB-19AB-4FED-A738-953BC03BD160}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "14b Setup Distance Converter", "Setup\Setup.vdproj", "{67B11AEB-19AB-4FED-A738-953BC03BD160}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15 Advantage Book Club", "Advantage Book Club\15 Advantage Book Club.csproj", "{C5F5E2CC-7D53-4B92-BFB9-868A9FCB1B61}"
 EndProject
