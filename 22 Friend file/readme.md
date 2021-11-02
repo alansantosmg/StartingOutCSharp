@@ -1,6 +1,6 @@
 ﻿# Friend File
 
-Demo app that show how to open and write to a text file
+Demo app that shows how to create and write streams to a text file.
 
 ## Features
 
