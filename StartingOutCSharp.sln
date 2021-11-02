@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18 Name List application", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19 while loop demo", "19 while loop demo\19 while loop demo.csproj", "{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20 Ending Balance Form", "20 Ending Balance Form\20 Ending Balance Form.csproj", "{96619BA2-F16E-4FFF-BD84-89F37D416F38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -412,6 +414,26 @@ Global
 		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Release|x64.Build.0 = Release|Any CPU
 		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Release|x86.ActiveCfg = Release|Any CPU
 		{F4950E72-F4B3-4537-9CDC-75F5DDE4EDD4}.Release|x86.Build.0 = Release|Any CPU
+		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Debug|ARM.Build.0 = Debug|Any CPU
+		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Debug|x64.Build.0 = Debug|Any CPU
+		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Debug|x86.Build.0 = Debug|Any CPU
+		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Release|ARM.ActiveCfg = Release|Any CPU
+		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Release|ARM.Build.0 = Release|Any CPU
+		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Release|ARM64.Build.0 = Release|Any CPU
+		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Release|x64.ActiveCfg = Release|Any CPU
+		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Release|x64.Build.0 = Release|Any CPU
+		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Release|x86.ActiveCfg = Release|Any CPU
+		{96619BA2-F16E-4FFF-BD84-89F37D416F38}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
