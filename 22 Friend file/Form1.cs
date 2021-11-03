@@ -32,18 +32,18 @@ namespace _22_Friend_file
                 // create streamWrite object 
                 StreamWriter outPutFile = File.CreateText(@"c:\users\alans\Documents\Friend.txt");
 
-                // write stream to file
-                outPutFile.WriteLine(nameTextBox.Text);
+                
+                outPutFile.WriteLine(nameTextBox.Text);     // write stream to file
 
-                // close the file
-                outPutFile.Close();
+
+                outPutFile.Close();     // close the file
             }
 
 
             catch (Exception ex)
             {
-                // file error operation message
-                MessageBox.Show(ex.Message);
+                
+                MessageBox.Show(ex.Message);     // file error operation message
             }
 
         }
@@ -56,18 +56,18 @@ namespace _22_Friend_file
                 // create streamWrite object 
                 StreamWriter outPutFile = File.AppendText(@"c:\users\alans\Documents\Friend.txt");
 
-                // write stream to file
-                outPutFile.WriteLine(nameTextBox1.Text);
+                
+                outPutFile.WriteLine(nameTextBox1.Text);   // write stream to file
 
-                // close the file
-                outPutFile.Close();
+               
+                outPutFile.Close();   // close the file
             }
 
 
             catch (Exception ex)
             {
-                // file error operation message
-                MessageBox.Show(ex.Message);
+                
+                MessageBox.Show(ex.Message);   // file error operation message
             }
         }
 
