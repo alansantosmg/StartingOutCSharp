@@ -6,7 +6,8 @@ Open and read a textfile.
 * Windows forms application project
 * Textbox to get file lines
 * Stream reader object that reads the file
-* Control of end of file. 
+* Control of end of file.
+* Open file dialog. 
 
 ## Contribute
 

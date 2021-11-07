@@ -37,12 +37,10 @@ namespace _22_Friend_file
                 outPutFile.Close();     // close the file
             }
 
-            catch (Exception ex)
-            {
+            catch (Exception ex)            {
                 
                 MessageBox.Show(ex.Message);     // file error operation message
             }
-
         }
 
         private void appendButton_Click(object sender, EventArgs e)
@@ -58,9 +56,7 @@ namespace _22_Friend_file
                 outPutFile.Close();   // close the file
             }
 
-
-            catch (Exception ex)
-            {
+            catch (Exception ex)            {
                 
                 MessageBox.Show(ex.Message);   // file error operation message
             }
