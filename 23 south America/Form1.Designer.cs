@@ -32,6 +32,7 @@
             this.titleLabel = new System.Windows.Forms.Label();
             this.getCountriesButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
+            this.OpenFile = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // countrieslistBox
@@ -73,11 +74,15 @@
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
+            // OpenFile
+            // 
+            this.OpenFile.Title = "Open countries file";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(257, 262);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.getCountriesButton);
             this.Controls.Add(this.titleLabel);
@@ -95,6 +100,7 @@
         private System.Windows.Forms.Label titleLabel;
         private System.Windows.Forms.Button getCountriesButton;
         private System.Windows.Forms.Button exitButton;
+        private System.Windows.Forms.OpenFileDialog OpenFile;
     }
 }
 

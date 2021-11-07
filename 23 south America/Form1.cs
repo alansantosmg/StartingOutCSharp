@@ -37,8 +37,23 @@ namespace _23_south_America
             try
             {
                 // Open file
-                StreamReader inputFile;
-                inputFile = File.OpenText(@"c:\intel\countries.txt");
+                StreamReader inputFile = null;
+
+                //now using file dialong
+                //inputFile = File.OpenText(@"c:\intel\countries.txt");
+
+                // open file dialogbox
+                OpenFile.InitialDirectory = "c:\\intel";
+                if(OpenFile.ShowDialog() == DialogResult.OK)
+
+                {
+                    inputFile = File.OpenText(OpenFile.FileName);
+                }
+                else 
+                {
+                    // cancel open file
+                    MessageBox.Show("Operation canceled");
+                }
 
                 // if not end of file
                 while (!inputFile.EndOfStream) 
