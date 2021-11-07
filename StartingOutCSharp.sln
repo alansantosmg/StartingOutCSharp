@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21 Km to miles", "21 Km to 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22 Friend file", "22 Friend file\22 Friend file.csproj", "{DF253496-A637-481A-8AAF-63F035E2FC0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23 south America", "23 south America\23 south America.csproj", "{A36630E9-CA1B-4D01-8D18-00F973406AA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -478,6 +480,26 @@ Global
 		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Release|x64.Build.0 = Release|Any CPU
 		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Release|x86.ActiveCfg = Release|Any CPU
 		{DF253496-A637-481A-8AAF-63F035E2FC0A}.Release|x86.Build.0 = Release|Any CPU
+		{A36630E9-CA1B-4D01-8D18-00F973406AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36630E9-CA1B-4D01-8D18-00F973406AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36630E9-CA1B-4D01-8D18-00F973406AA0}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{A36630E9-CA1B-4D01-8D18-00F973406AA0}.Debug|ARM.Build.0 = Debug|Any CPU
+		{A36630E9-CA1B-4D01-8D18-00F973406AA0}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{A36630E9-CA1B-4D01-8D18-00F973406AA0}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{A36630E9-CA1B-4D01-8D18-00F973406AA0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A36630E9-CA1B-4D01-8D18-00F973406AA0}.Debug|x64.Build.0 = Debug|Any CPU
+		{A36630E9-CA1B-4D01-8D18-00F973406AA0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A36630E9-CA1B-4D01-8D18-00F973406AA0}.Debug|x86.Build.0 = Debug|Any CPU
+		{A36630E9-CA1B-4D01-8D18-00F973406AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36630E9-CA1B-4D01-8D18-00F973406AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A36630E9-CA1B-4D01-8D18-00F973406AA0}.Release|ARM.ActiveCfg = Release|Any CPU
+		{A36630E9-CA1B-4D01-8D18-00F973406AA0}.Release|ARM.Build.0 = Release|Any CPU
+		{A36630E9-CA1B-4D01-8D18-00F973406AA0}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{A36630E9-CA1B-4D01-8D18-00F973406AA0}.Release|ARM64.Build.0 = Release|Any CPU
+		{A36630E9-CA1B-4D01-8D18-00F973406AA0}.Release|x64.ActiveCfg = Release|Any CPU
+		{A36630E9-CA1B-4D01-8D18-00F973406AA0}.Release|x64.Build.0 = Release|Any CPU
+		{A36630E9-CA1B-4D01-8D18-00F973406AA0}.Release|x86.ActiveCfg = Release|Any CPU
+		{A36630E9-CA1B-4D01-8D18-00F973406AA0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

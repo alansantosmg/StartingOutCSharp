@@ -34,11 +34,8 @@ namespace _22_Friend_file
 
                 
                 outPutFile.WriteLine(nameTextBox.Text);     // write stream to file
-
-
                 outPutFile.Close();     // close the file
             }
-
 
             catch (Exception ex)
             {
@@ -57,9 +54,7 @@ namespace _22_Friend_file
                 StreamWriter outPutFile = File.AppendText(@"c:\users\alans\Documents\Friend.txt");
 
                 
-                outPutFile.WriteLine(nameTextBox1.Text);   // write stream to file
-
-               
+                outPutFile.WriteLine(nameTextBox1.Text);   // write stream to file               
                 outPutFile.Close();   // close the file
             }
 
