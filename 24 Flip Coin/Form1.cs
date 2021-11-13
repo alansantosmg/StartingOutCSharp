@@ -52,6 +52,11 @@ namespace _24_Flip_Coin
             tailPromptBWPictureBox.BorderStyle = BorderStyle.None;
 
             coinfFliped = 0;
+            questionResultLabel.Visible = true;
+            tailResultPictureBox.Visible = false;
+            faceResultPictureBox.Visible = false;
+            faceResultBWPictureBox.Visible = false;
+            tailResultBWPictureBox.Visible = false;
         }
 
 
@@ -68,6 +73,11 @@ namespace _24_Flip_Coin
             facePromptBWPictureBox.BorderStyle = BorderStyle.None;
             
             coinfFliped = 1;
+            questionResultLabel.Visible = true;
+            tailResultPictureBox.Visible = false;
+            faceResultPictureBox.Visible = false;
+            faceResultBWPictureBox.Visible = false;
+            tailResultBWPictureBox.Visible = false;
 
         }
 
@@ -83,6 +93,11 @@ namespace _24_Flip_Coin
             tailPromptBWPictureBox.BorderStyle = BorderStyle.None;
 
             coinfFliped = 0;
+            questionResultLabel.Visible = true;
+            tailResultPictureBox.Visible = false;
+            faceResultPictureBox.Visible = false;
+            faceResultBWPictureBox.Visible = false;
+            tailResultBWPictureBox.Visible = false;
 
         }
 
@@ -99,6 +114,11 @@ namespace _24_Flip_Coin
             facePromptBWPictureBox.BorderStyle = BorderStyle.None;
 
             coinfFliped = 1;
+            questionResultLabel.Visible = true;
+            tailResultPictureBox.Visible = false;
+            faceResultPictureBox.Visible = false;
+            faceResultBWPictureBox.Visible = false;
+            tailResultBWPictureBox.Visible = false;
         }
 
         private void playButton_Click(object sender, EventArgs e)
