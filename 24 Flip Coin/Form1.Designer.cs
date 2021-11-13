@@ -38,12 +38,17 @@
             this.playButton = new System.Windows.Forms.Button();
             this.facePromptBWPictureBox = new System.Windows.Forms.PictureBox();
             this.tailPromptBWPictureBox = new System.Windows.Forms.PictureBox();
+            this.faceResultBWPictureBox = new System.Windows.Forms.PictureBox();
+            this.tailResultBWPictureBox = new System.Windows.Forms.PictureBox();
+            this.Resultlabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.facePromptPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tailPromptPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.faceResultPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tailResultPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.facePromptBWPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tailPromptBWPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.faceResultBWPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tailResultBWPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // facePromptPictureBox
@@ -79,7 +84,7 @@
             // faceResultPictureBox
             // 
             this.faceResultPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("faceResultPictureBox.Image")));
-            this.faceResultPictureBox.Location = new System.Drawing.Point(559, 69);
+            this.faceResultPictureBox.Location = new System.Drawing.Point(574, 69);
             this.faceResultPictureBox.Name = "faceResultPictureBox";
             this.faceResultPictureBox.Size = new System.Drawing.Size(164, 148);
             this.faceResultPictureBox.TabIndex = 3;
@@ -88,7 +93,7 @@
             // tailResultPictureBox
             // 
             this.tailResultPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("tailResultPictureBox.Image")));
-            this.tailResultPictureBox.Location = new System.Drawing.Point(559, 69);
+            this.tailResultPictureBox.Location = new System.Drawing.Point(574, 69);
             this.tailResultPictureBox.Name = "tailResultPictureBox";
             this.tailResultPictureBox.Size = new System.Drawing.Size(166, 148);
             this.tailResultPictureBox.TabIndex = 4;
@@ -98,7 +103,7 @@
             // 
             this.questionResultLabel.AutoSize = true;
             this.questionResultLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 97F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.questionResultLabel.Location = new System.Drawing.Point(577, 69);
+            this.questionResultLabel.Location = new System.Drawing.Point(593, 69);
             this.questionResultLabel.Name = "questionResultLabel";
             this.questionResultLabel.Size = new System.Drawing.Size(134, 148);
             this.questionResultLabel.TabIndex = 5;
@@ -112,6 +117,7 @@
             this.playButton.TabIndex = 8;
             this.playButton.Text = "Play";
             this.playButton.UseVisualStyleBackColor = true;
+            this.playButton.Click += new System.EventHandler(this.playButton_Click);
             // 
             // facePromptBWPictureBox
             // 
@@ -133,11 +139,39 @@
             this.tailPromptBWPictureBox.TabStop = false;
             this.tailPromptBWPictureBox.Click += new System.EventHandler(this.tailPromptBWPictureBox_Click);
             // 
+            // faceResultBWPictureBox
+            // 
+            this.faceResultBWPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("faceResultBWPictureBox.Image")));
+            this.faceResultBWPictureBox.Location = new System.Drawing.Point(574, 69);
+            this.faceResultBWPictureBox.Name = "faceResultBWPictureBox";
+            this.faceResultBWPictureBox.Size = new System.Drawing.Size(165, 148);
+            this.faceResultBWPictureBox.TabIndex = 11;
+            this.faceResultBWPictureBox.TabStop = false;
+            // 
+            // tailResultBWPictureBox
+            // 
+            this.tailResultBWPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("tailResultBWPictureBox.Image")));
+            this.tailResultBWPictureBox.Location = new System.Drawing.Point(574, 69);
+            this.tailResultBWPictureBox.Name = "tailResultBWPictureBox";
+            this.tailResultBWPictureBox.Size = new System.Drawing.Size(166, 148);
+            this.tailResultBWPictureBox.TabIndex = 12;
+            this.tailResultBWPictureBox.TabStop = false;
+            // 
+            // Resultlabel
+            // 
+            this.Resultlabel.Location = new System.Drawing.Point(615, 31);
+            this.Resultlabel.Name = "Resultlabel";
+            this.Resultlabel.Size = new System.Drawing.Size(100, 23);
+            this.Resultlabel.TabIndex = 13;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(768, 270);
+            this.ClientSize = new System.Drawing.Size(782, 270);
+            this.Controls.Add(this.Resultlabel);
+            this.Controls.Add(this.tailResultBWPictureBox);
+            this.Controls.Add(this.faceResultBWPictureBox);
             this.Controls.Add(this.tailPromptBWPictureBox);
             this.Controls.Add(this.facePromptBWPictureBox);
             this.Controls.Add(this.playButton);
@@ -156,6 +190,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.tailResultPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.facePromptBWPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tailPromptBWPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.faceResultBWPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tailResultBWPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -172,6 +208,9 @@
         private System.Windows.Forms.Button playButton;
         private System.Windows.Forms.PictureBox facePromptBWPictureBox;
         private System.Windows.Forms.PictureBox tailPromptBWPictureBox;
+        private System.Windows.Forms.PictureBox faceResultBWPictureBox;
+        private System.Windows.Forms.PictureBox tailResultBWPictureBox;
+        private System.Windows.Forms.Label Resultlabel;
     }
 }
 
